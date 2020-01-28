@@ -1,6 +1,9 @@
 <p align="center"><img width="20%" src="hal.png" /><img width="40%" src="ICASSP2020.png" /></p><br/>
 
 ###### Acknowledgment - This work has been made possible by the [NSF grant award #CCF-1763747](https://www.nsf.gov/awardsearch/showAward?AWD_ID=1763747&HistoricalAwards=false)
+
+[![Join the chat at https://gitter.im/lnsdnn/community](https://badges.gitter.im/lnsdnn/community.svg)](https://gitter.im/lnsdnn/community?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
+
 -----
 
 <h1 align="center">Neural Network Training with Approximate Logarithmic Computations</h1>
