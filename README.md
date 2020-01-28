@@ -21,7 +21,7 @@ The high computational complexity associated with training deep neural networks 
 
 ICASSP is **the world’s largest and most comprehensive technical conference focused on signal processing and its applications**. As of January 2020, it is ranked by google metrics #1 in the domain of *Accoustics & Sound* and #4 in the domain of *Signal Processing* (top 3 in *Signal Processing* are *IEEE Transactions*)
 
-* Today ICASSP has an h5 index of 80 and a h5 median of 140
+* Today ICASSP has an h5-index of 80 and an h5-median of 140
 * ICASSP 2020 will be held in Barcelona between May 4 2020 and May 8 2020.
 
 ### References
