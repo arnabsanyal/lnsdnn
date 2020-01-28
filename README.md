@@ -51,7 +51,13 @@ If you use our code as benchmark/comparison in a scientific publication, we woul
 
 ### References
 
+
+
+
 <a href="#"><i class="ai ai-ieee ai-5x"></i></a><a href="https://arxiv.org/abs/1910.09876"><i class="ai ai-arxiv ai-5x"></i></a> <a href="https://towardsdatascience.com/neural-networks-training-with-approximate-logarithmic-computations-44516f32b15b"><i class="fa fa-medium fa-5x"></i></a>
+
+
+
 
 -----
 
