@@ -1,0 +1,25 @@
+# Legacy conda environment for lnsdnn on Python 3.7 (the version the paper's code was written for)
+#
+#   conda env create -f setup/environment-py37.yml
+#   conda activate lnsdnn-py37
+#
+# conda-forge has no Python 3.7 builds for Apple Silicon; on an arm64 Mac create it as an
+# x86_64 env that runs under Rosetta:
+#
+#   CONDA_SUBDIR=osx-64 conda env create -f setup/environment-py37.yml
+#   conda activate lnsdnn-py37 && conda config --env --set subdir osx-64
+#
+# Prefer setup/environment.yml unless you specifically need Python 3.7.
+name: lnsdnn-py37
+channels:
+  - conda-forge
+  - nodefaults
+dependencies:
+  - python=3.7
+  - numpy=1.21
+  - scikit-learn
+  - matplotlib
+  - requests
+  # toolchain for building the native_matr_mult_wrapper C extension (OpenMP)
+  - compilers
+  - llvm-openmp

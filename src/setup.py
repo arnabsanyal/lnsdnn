@@ -11,5 +11,6 @@ module1 = Extension('native_matr_mult_wrapper',
 setup (name = 'native_matr_mult_wrapper',
         version = '1.0',
         description = 'This is a cache inefficient log-matrix multiplier wrapper',
+        py_modules = ['dnn_log_misc'],
         ext_modules = [module1])
 
