@@ -31,7 +31,7 @@ def save_response_content(response, destination):
 
 if __name__ == "__main__":
     file_id = '1zEUcUlYjCrrV22AYWsL5TiFiWwfsndJa'
-    destination = './mnist.npz'
+    destination = './fashion_mnist.npz'
     download_file_from_google_drive(file_id, destination)
 
 

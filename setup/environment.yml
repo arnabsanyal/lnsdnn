@@ -1,0 +1,28 @@
+# Conda environment for lnsdnn
+#
+#   conda env create -f setup/environment.yml
+#   conda activate lnsdnn
+#
+# Build the C extension from src/ with the env activated (activation points CC at conda's
+# OpenMP-capable clang/gcc; Apple's system clang does not support -fopenmp):
+#
+#   cd src && python setup.py build_ext --inplace
+#
+# For Python 3.7 use setup/environment-py37.yml instead.
+#
+# Version constraints:
+#   python < 3.12 : setup.py uses distutils (removed from the stdlib in 3.12)
+#   numpy  < 1.24 : scripts use the np.float alias (removed in numpy 1.24)
+name: lnsdnn
+channels:
+  - conda-forge
+  - nodefaults
+dependencies:
+  - python=3.10
+  - numpy=1.23
+  - scikit-learn
+  - matplotlib
+  - requests
+  # toolchain for building the native_matr_mult_wrapper C extension (OpenMP)
+  - compilers
+  - llvm-openmp
