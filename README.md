@@ -26,7 +26,7 @@ The high computational complexity associated with training deep neural networks 
 
 ### About ICASSP
 
-ICASSP is **the world’s largest and most comprehensive technical conference focused on signal processing and its applications**. As of January 2020, it is ranked by google metrics #1 in the domain of *Accoustics & Sound* and #4 in the domain of *Signal Processing* (top 3 in *Signal Processing* are *IEEE Transactions*)
+ICASSP is **the world’s largest and most comprehensive technical conference focused on signal processing and its applications**. As of January 2024, it is ranked by google metrics #1 in the domain of *Accoustics & Sound*, #3 in the domain of *Signal Processing* and #13 in the domain of *Physics & Mathematics*.
 
 * ICASSP has an h5-index of **80** and an h5-median of **140**
 * ICASSP 2020 will be held in Barcelona between May 4 2020 and May 8 2020.
@@ -35,13 +35,16 @@ ICASSP is **the world’s largest and most comprehensive technical conference fo
 
 If you use our code as benchmark/comparison in a scientific publication, we would appreciate references to our published paper:
 
-	@misc{sanyal2019neural,
-    	title={Neural Network Training with Approximate Logarithmic Computations},
-    	author={Arnab Sanyal and Peter A. Beerel and Keith M. Chugg},
-    	year={2019},
-    	eprint={1910.09876},
-    	archivePrefix={arXiv},
-    	primaryClass={cs.LG}
+	@inproceedings{sanyal2019neural,
+    	author={A. {Sanyal} and P. A. {Beerel} and K. M. {Chugg}},
+  		booktitle={ICASSP 2020 - 2020 IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP)}, 
+  		title={{Neural Network Training with Approximate Logarithmic Computations}}, 
+  		year={2020},
+  		pages={3122-3126},
+  		doi={10.1109/ICASSP40776.2020.9053015},
+  		ISSN={2379-190X},
+  		month={May},
+  		url={https://doi.org/10.1109/ICASSP40776.2020.9053015}
 	}
 
 ### Contact
@@ -109,5 +112,5 @@ The code release is not yet complete (the *upload completion* badge above tracks
   </picture>
 </p>
 
-* [**More about the author**](https://arnabsanyal.github.io/website)
+* [**More about the author**](https://arnabsanyal.github.io)
 * [**Hardware Accelerated Learning Research Group, USC**](https://hal.usc.edu/)
